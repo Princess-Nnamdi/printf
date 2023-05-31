@@ -71,8 +71,7 @@ int flags, int width, int precision, int size)
 	}
 	return (write_unsgnd(0, j, buffer, flags, width, precision, size));
 }
-<<<<<<< HEAD
-=======
+
 
 /**
  * print_hexadecimal- prints unsigned number in hexadecimal notation
@@ -155,4 +154,3 @@ int flags, char flag_ch, int width, int precision, int size)
 	i++;
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
->>>>>>> 06f0ba2cc7625af1d082fef062a6bacd281ea238
