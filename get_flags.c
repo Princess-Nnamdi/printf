@@ -20,7 +20,7 @@ int get_flags(const char *format, int *i)
 		for (a = 0; flags_CH[a] != '\0'; a++)
 			if (format[curr_i] == flags_CH[a])
 			{
-				flags |= flags_vARR[a];
+				flags |= flags_ARR[a];
 				break;
 			}
 
